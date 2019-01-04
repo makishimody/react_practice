@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<title>AGRI SYSTEM</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="viewport" content="width=device-width" />
+<meta name="format-detection" content="telephone=no,address=no,email=no" />
+
+<!-- CSS -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cinzel" />
+<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+<link rel="stylesheet" href="/common/css/normalize.min.css" />
+<link rel="stylesheet" href="/common/css/common.css" />
+<link rel="stylesheet" href="/common/css/form.css" />
+
+<link rel="shortcut icon" href="/common/icons/favicon.ico" type="image/x-icon" />
+<link rel="apple-touch-icon" href="/common/icons/apple-touch-icon.png" />
+<link rel="apple-touch-icon" sizes="57x57" href="/common/icons/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="/common/icons/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon" sizes="76x76" href="/common/icons/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="/common/icons/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon" sizes="120x120" href="/common/icons/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="/common/icons/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="/common/icons/apple-touch-icon-152x152.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="/common/icons/apple-touch-icon-180x180.png" />
+
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<!-- /Global Site Tag -->
+</head>
+
+<body id="" class="c_logout" >
+  
+<div id="wrapper">
+
+<?php include($_SERVER['DOCUMENT_ROOT'] . '/common/inc/header.html') ?>
+
+<main>
+<h1><div class="_inner"><span class="smaller">アグリスマート </span><br />農場管理システム</div></h1>   
+
+<div class="_inner">  
+  
+  <article>
+  
+<!--       <h2>ログイン</h2> -->
+      <form action="main/index.html">
+      <table class="st2 form_box">
+        <tr>
+          <th>契約者ID</th>
+          <td><input class="idpw" type="text" value=""></td>
+        </tr>
+        <tr>
+          <th>パスワード</th>
+          <td><input class="idpw" type="password" value=""></td>
+        </tr>
+        
+      </table>
+      <div class="ac">
+        <p class="bt"><input type="submit" value="ログイン" /></p>
+      </div>
+      </form>
+      
+  
+<p class="ac"><a href="reminder.html">パスワードを忘れた方はこちら</a></p>
+<p class="ac"><a href="manager.html">管理者専用画面</a></p>
+
+</article>
+
+
+</div>
+</main>
+
+</div>
+
+<?php include($_SERVER['DOCUMENT_ROOT'] . '/common/inc/footer.html') ?>
+
+<!-- js // -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="/common/js/lodash.debounce.js"></script>
+<script src="/common/js/common.js"></script>
+
+<!-- local JS -->
+<script src="/common/js/index.js"></script>
+
+
+
+</body>
+
+</html>
